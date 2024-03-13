@@ -33,7 +33,7 @@ function getLocationAndWeather() {
   
   // Function to fetch weather data based on location
   function getWeather(latitude, longitude) {
-    const apiKey = '7fEOShCtD9cd1m06Elb6tS3uEBDP3hKs';
+    const apiKey = "YOUR WHEATHER API KEY";
     const apiUrl = `https://api.tomorrow.io/v4/weather/forecast?location=${latitude},${longitude}&apikey=${apiKey}`;
   
     const options = {
